@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: -webkit-linear-gradient(45deg, #8499d2 20%, #5371e8 80%);
+  background-image: -moz-linear-gradient(45deg, #8499d2 20%, #5371e8 80%);
+  background-image: -o-linear-gradient(45deg, #8499d2 20%, #5371e8 80%);
+  background-image: linear-gradient(45deg, #8499d2 20%, #5371e8 80%);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container {
+  width: 35%;
+  height: 80vh;
+  padding: 30px;
+  border-radius: 10px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+}
+
+.container .loging {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.container input {
+  width: 50%;
+  height: 30px;
+}
+
+.container .btn {
+  width: 30%;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  background: #8499d2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+  transition: all 0.3s ease;
+}
+
+.container .btn:hover {
+  background: #0c0b0c;
+  color: #ae9f9f;
+}
+
+.container input:focus {
+  outline: none;
+  border: none;
+  border: 1px solid #39135a;
+}
+
+.container h1 {
+  color: #39135a;
+  margin-bottom: 10px;
+}
